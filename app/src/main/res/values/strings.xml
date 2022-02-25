@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Evaluacion_Practica_1</string>
+    <string name="login">LOGIN</string>
+    <string name="user">Usuario</string>
+    <string name="userHitn">DM1p22A</string>
+    <string name="passHint">skjebcmjg</string>
+    <string name="password">Contraseña</string>
+    <string name="loginBtn">Ingresar</string>
+    <string name="loginCancel">Salir</string>
+
+
 </resources>
