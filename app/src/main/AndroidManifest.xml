@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Evaluacion_Practica_1">
         <activity
+            android:name=".ActivityBienvenida"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
