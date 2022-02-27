@@ -27,15 +27,14 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                if( user.getText().toString().equals("DM1p22A")){
+                if(user.getText().toString().equals("DM1p22A") && pass.getText().toString().equals("Fernando")){
                     Intent intent = new Intent(view.getContext(), ActivityBienvenida.class);
                     startActivity(intent);
-                }else if (pass.getText().toString().equals("Fernando")){
+                }else if (!pass.getText().toString().equals("Fernando") && !user.getText().toString().equals("DM1p22A")){
 
-                    showAlertDialog("el usuario es incorrecto, por favor verifica");
+                    showAlertDialog("el Usuario no existe, por favor verifica");
                 }else{
-                    showAlertDialog("el usuario y la contraseña son incorrectas, por favor verifica");
+                    showAlertDialog("el usuario o la contraseña son incorrectas, por favor verifica");
                 }
 
             }
@@ -44,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         btnsalir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Saliendo de la App", Toast.LENGTH_SHORT).show();
                 finish();
             }
         });

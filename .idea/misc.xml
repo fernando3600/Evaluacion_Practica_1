@@ -4,7 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/anton/AndroidStudioProjects/Evaluacion_Practica_1/app/src/main/res/layout/activity_bienvenida.xml" value="0.31657608695652173" />
+        <entry key="..\:/Users/anton/AndroidStudioProjects/Evaluacion_Practica_1/app/src/main/res/layout/activity_flashlight.xml" value="0.36594202898550726" />
         <entry key="..\:/Users/anton/AndroidStudioProjects/Evaluacion_Practica_1/app/src/main/res/layout/activity_main.xml" value="0.31657608695652173" />
+        <entry key="..\:/Users/anton/AndroidStudioProjects/Evaluacion_Practica_1/app/src/main/res/layout/activity_photo.xml" value="0.31657608695652173" />
+        <entry key="..\:/Users/anton/AndroidStudioProjects/Evaluacion_Practica_1/app/src/main/res/layout/activity_tab_lay.xml" value="0.36594202898550726" />
+        <entry key="..\:/Users/anton/AndroidStudioProjects/Evaluacion_Practica_1/app/src/main/res/layout/activity_video.xml" value="0.31657608695652173" />
+        <entry key="..\:/Users/anton/AndroidStudioProjects/Evaluacion_Practica_1/app/src/main/res/layout/table_layaout.xml" value="0.36594202898550726" />
       </map>
     </option>
   </component>

@@ -7,6 +7,14 @@
     <string name="password">Contraseña</string>
     <string name="loginBtn">Ingresar</string>
     <string name="loginCancel">Salir</string>
+    <string name="btnReturn">Regresar</string>
+    <string name="imgview">Foto</string>
+    <string name="toma_foto">Tomar foto</string>
+    <string name="guardar">guardar</string>
+    <string name="turnOn">Encender Linterna</string>
+    <string name="turnOff">Apagar linterna</string>
+    <string name="clock">Reloj</string>
+    <string name="btnGPS">Obtener ubicacion actual</string>
 
 
 </resources>
