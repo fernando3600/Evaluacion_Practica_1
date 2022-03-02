@@ -16,8 +16,6 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class ActivityBienvenida extends AppCompatActivity {
-
-    boolean turn = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,9 +32,9 @@ public class ActivityBienvenida extends AppCompatActivity {
         btnYo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showAlertDialog("Fernando Antonio Gonzalez\n" +
-                        "ITToluca" +
-                        "Profesora Rocio Elizabeth Pulido ALba\n" +
+                showAlertDialog("Gabriel Miranda Estrada\n" +
+                        "ITTOL\n" +
+                        "Profesora: Rocio Elizabeth Pulido ALba\n" +
                         "Periodo 2022A", "Creditos");
             }
         });
@@ -52,7 +50,8 @@ public class ActivityBienvenida extends AppCompatActivity {
         btnTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intentGaleria = new Intent(view.getContext(), ActivityGaleria.class);
+                startActivity(intentGaleria);
             }
         });
 
@@ -75,7 +74,7 @@ public class ActivityBienvenida extends AppCompatActivity {
         btnPestana.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), ActivityTabLay.class);
+                Intent intent = new Intent(view.getContext(), ActivityPest.class);
                 startActivity(intent);
             }
         });
@@ -83,7 +82,7 @@ public class ActivityBienvenida extends AppCompatActivity {
         btnSalir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(ActivityBienvenida.this, "Saliendo de la app", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ActivityBienvenida.this, "Saliendo ", Toast.LENGTH_LONG).show();
                 finishAffinity();
             }
         });

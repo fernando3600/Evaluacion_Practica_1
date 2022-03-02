@@ -22,20 +22,20 @@ public class ActivityVideo extends AppCompatActivity {
         setContentView(R.layout.activity_video);
 
         VideoView vidView = (VideoView) findViewById(R.id.videoView);
-        vidView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" +R.raw.clouds));
+        vidView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" +R.raw.v1));
         MediaController vidControl = new MediaController(this);
         vidControl.setAnchorView(vidView);
         vidView.setMediaController(vidControl);
 
 
         VideoView vidView2 = (VideoView) findViewById(R.id.videoView2);
-        vidView2.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" +R.raw.meme1));
+        vidView2.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" +R.raw.v2));
         MediaController vidControl1 = new MediaController(this);
         vidControl.setAnchorView(vidView2);
         vidView2.setMediaController(vidControl1);
 
         VideoView vidView3 = (VideoView) findViewById(R.id.videoView3);
-        vidView3.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" +R.raw.trees));
+        vidView3.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" +R.raw.v3));
         MediaController vidControl2 = new MediaController(this);
         vidControl.setAnchorView(vidView3);
         vidView3.setMediaController(vidControl2);

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityPest"
+    android:orientation="vertical">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/barPro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progress Bar" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/gps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPS" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora Actual" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salir" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpagg1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.viewpager.widget.ViewPager>
+</LinearLayout>

@@ -1,20 +1,23 @@
 <resources>
-    <string name="app_name">Evaluacion_Practica_1</string>
+    <string name="app_name">Evaluacion_U1</string>
     <string name="login">LOGIN</string>
     <string name="user">Usuario</string>
     <string name="userHitn">DM1p22A</string>
-    <string name="passHint">skjebcmjg</string>
+    <string name="passHint">CONTRASEÑA</string>
     <string name="password">Contraseña</string>
     <string name="loginBtn">Ingresar</string>
     <string name="loginCancel">Salir</string>
     <string name="btnReturn">Regresar</string>
     <string name="imgview">Foto</string>
-    <string name="toma_foto">Tomar foto</string>
+    <string name="toma_foto">Tomar Fotografia</string>
     <string name="guardar">guardar</string>
-    <string name="turnOn">Encender Linterna</string>
-    <string name="turnOff">Apagar linterna</string>
+    <string name="turnOn">Encender </string>
+    <string name="turnOff">Apagar</string>
     <string name="clock">Reloj</string>
-    <string name="btnGPS">Obtener ubicacion actual</string>
+    <string name="btnGPS">Obtener ubicacion </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_gps">ActivityGPS</string>
 
 
 </resources>

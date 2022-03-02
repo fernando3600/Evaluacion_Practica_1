@@ -21,20 +21,19 @@ public class MainActivity extends AppCompatActivity {
         Button btnLogin = findViewById(R.id.btnIngresar);
         Button btnsalir = findViewById(R.id.btnCancelar);
 
-        EditText user = findViewById(R.id.EdTUsuario);
-        EditText pass = findViewById(R.id.EdTPassword);
+        EditText usuario = findViewById(R.id.EdTUsuario);
+        EditText contra = findViewById(R.id.EdTPassword);
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(user.getText().toString().equals("DM1p22A") && pass.getText().toString().equals("Fernando")){
+                if(usuario.getText().toString().equals("dm1p22A") && contra.getText().toString().equals("Gabriel")){
                     Intent intent = new Intent(view.getContext(), ActivityBienvenida.class);
                     startActivity(intent);
-                }else if (!pass.getText().toString().equals("Fernando") && !user.getText().toString().equals("DM1p22A")){
-
-                    showAlertDialog("el Usuario no existe, por favor verifica");
                 }else{
-                    showAlertDialog("el usuario o la contraseña son incorrectas, por favor verifica");
+                    showAlertDialog("el usuario o contraseña  incorrectas");
+                    //showAlertDialog(usuario.getText().toString() +" "+contra.getText().toString());
+
                 }
 
             }
@@ -43,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         btnsalir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Saliendo de la App", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Saliendo ", Toast.LENGTH_LONG).show();
                 finish();
             }
         });
@@ -51,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void showAlertDialog(String mess){
         new AlertDialog.Builder(this)
-                .setTitle("Error de Autentificacion: ")
                 .setMessage(mess)
                 .setPositiveButton("aceptar", null).show();
     }
